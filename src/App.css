@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.react-audio-player {
+  background-color: #f3f4f6;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 90%;
+  margin-bottom: 2rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(
+    -45deg,
+    #00FF94,
+    #118DFF,
+    #7A11FF
+  );
+  background-size: 300% 300%;
+  animation: gradient 7s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.animated-gradientt {
+  background: linear-gradient(
+    -45deg,
+    #00FF94,
+    #118DFF,
+    #7A11FF
+  );
+  background-size: 300% 300%;
+  animation: gradient 3s ease infinite;
+}
+
+.background-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: color-loop 15s linear infinite;
+}
+
+@keyframes color-loop {
+  0% {
+    background-color: #ff6347; /* Tomato */
+  }
+  50% {
+    background-color: #1e90ff; /* Dodger Blue */
+  }
+  100% {
+    background-color: #32cd32; /* Lime Green */
+  }
+}
