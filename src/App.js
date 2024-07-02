@@ -85,7 +85,7 @@ function App() {
 
       {/* Buy Now Button */}
       <div className="fixed left-6 bottom-10">
-        <a href="https://pump.fun/board"
+        <a href="https://pump.fun/BtCqj8r7GgvvqHAb4gawc3ELSpfH4wJRFq9sPLy8pump"
           className="animated-gradientt font-custom text-5xl md:text-7xl text-white py-3 px-6 rounded-full transition-colors duration-300"
         >
           BUY
